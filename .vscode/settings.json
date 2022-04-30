@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/3195b70a-5b51-473a-a558-ab1f652e0f5e/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/rbis-api",
+    "appService.deploySubpath": "."
+}

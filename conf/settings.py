@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-ykt9k$pmtf@12%w!_z06@xsz@5ehe6^ex98w7nt*(f*2_s*yzq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['rbis-api.azurewebsites.net']
 
 
 # Application definition

@@ -19,6 +19,6 @@ from core.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('create-specie/', SpecieCreateAPIView.as_view(), name='create-specie'),
+    path('', SpecieCreateAPIView.as_view(), name='create-specie'),
     path('list-species',SpeciesListAPIView.as_view(), name='specie-list'),
 ]
